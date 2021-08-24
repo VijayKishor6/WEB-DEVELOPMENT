@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Try</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            list-style: none;
+            text-decoration: none;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        body {
+            background-color:#F3F3F4;
+        }
+
+        .wrapper {
+            display: flex;
+            position: relative;
+        }
+
+        .wrapper .sidebar {
+            position: fixed;
+            width: 200px;
+            height: 100%;
+            background: #2F4F4F;
+            padding: 30px 0;
+        }
+
+        .wrapper .sidebar h3 {
+            color: white;
+            text-transform: uppercase;
+            margin-bottom: 50px;
+        }
+
+        .wrapper .sidebar ul li {
+            padding: 15px;
+            width: 100%;
+            border-bottom: 1px solid rgba(1, 2, 3, 0.05);
+            border-bottom: 1px solid rgba(225, 225, 225, 0.05);
+
+        }
+
+        .wrapper .sidebar ul li a {
+            font-size: 20px;
+            font-weight: bolder;
+            font-stretch: wider;
+            color: orange;
+            display: block;
+        }
+
+        .wrapper .sidebar ul li:hover {
+            background: white;
+        }
+
+        .cardView {
+            width: 100%;
+            background-color: #f5f5f5;
+            box-shadow: 1px 1px 1px #888;
+        }
+
+        .cardView:hover {
+            background-color: skyblue;
+            color: white;
+            box-shadow: 3px 3px 3px #888;
+            transition-duration: all 0.2s;
+        }
+        .main-content .card{
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <h3>sofia Hayes<br>
+                +1 1602300671
+            </h3>
+            <ul class="nav nav-pills nav-stacked">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Dashboard
+                    </a> 
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Submenu 1-1</a></li>
+                    </ul>
+                </li>
+                <li><a href="client.html">Clients</a></li>
+                <li><a href="staff.html">Staff</a></li>
+                <li><a href="#">Schedule</a></li>
+                <li><a href="#">Staff Schedule</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Instructional Video</a></li>
+                <li><a href="#">Messages</a></li>
+                <li><a href="#">Terminals</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-content" style="margin-left: 200px;">
+        <ul class="nav navbar-nav navbar-right" style="font-size: medium;">
+            <button class="btn btn-info">
+            <a href="#"><span class="glyphicon glyphicon-log-in"></span> Logout</a></button>
+        </ul>
+        <div class="main-content" style="margin: left 0;">
+            
+            <p> Welcome,Sofia Hayes!</p>            
+            <br>
+            <h2>Today's total sale</h2>
+        <div class="container p-2" style="position: absolute;">
+                <div class="row p-2 text-center ">
+                    <div class="col-md-4 ">
+                        <div class="card">
+                            <div class="card-body">
+                                <h1>$0.00</h1><br>
+                                <h3>Total Sales</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="card cardView">
+
+                            <div class="card-body">
+                                <h1>$0.00</h1><br>
+                                <h3>Total tips</h3>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <div class="card cardView">
+
+                            <div class="card-body">
+                                <h1>$0.00</h1><br>
+                                <h3>Total tips</h3>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="row p-2 text-center">
+
+                    <div class="col-md-4">
+                        <div class="card cardView">
+
+                            <div class="card-body">
+                                <h1>$0.00</h1><br>
+                                <h3>Total tips</h3>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card cardView">
+
+                            <div class="card-body">
+                                <h1>$0.00</h1><br>
+                                <h3>Total tips</h3>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <div class="card cardView">
+
+                            <div class="card-body">
+                                <h1>$0.00</h1><br>
+                                <h3>Total tips</h3>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row p-2 text-center">
+
+                    <div class="col-md-4">
+                        <div class="card cardView">
+
+                            <div class="card-body">
+                                <h1>$0.00</h1><br>
+                                <h3>Total tips</h3>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 ">
+                        <div class="card cardView">
+
+                            <div class="card-body">
+                                <h1>$0.00</h1><br>
+                                <h3>Total tips</h3>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <br>
+                <p>
+                <h2>30 Day Snapchat</h2><br>/<p>
+                <div class="container p-2">
+                    <div class="row p-2 text-center ">
+                        <div class="col-md-4 ">
+                            <div class="card cardView">
+
+                                <div class="card-body">
+                                    <h1>$0.00</h1><br>
+                                    <h3>Total Sales</h3>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 ">
+                            <div class="card cardView">
+
+                                <div class="card-body">
+                                    <h1>$0.00</h1><br>
+                                    <h3>Total tips</h3>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4">
+                            <div class="card cardView">
+
+                                <div class="card-body">
+                                    <h1>$0.00</h1><br>
+                                    <h3>Total tips</h3>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="row p-2 text-center">
+
+                        <div class="col-md-4 ">
+                            <div class="card cardView">
+
+                                <div class="card-body">
+                                    <h1>$0.00</h1><br>
+                                    <h3>Total tips</h3>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 ">
+                            <div class="card cardView">
+
+                                <div class="card-body">
+                                    <h1>$0.00</h1><br>
+                                    <h3>Total tips</h3>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4 ">
+                            <div class="card cardView">
+
+                                <div class="card-body">
+                                    <h1>$0.00</h1><br>
+                                    <h3>Total tips</h3>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row p-2 text-center">
+
+                        <div class="col-md-4 ">
+                            <div class="card cardView">
+
+                                <div class="card-body">
+                                    <h1>$0.00</h1><br>
+                                    <h3>Total tips</h3>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 img-rounded">
+                            <div class="card cardView">
+
+                                <div class="card-body">
+                                    <h1>$0.00</h1><br>
+                                    <h3>Total tips</h3>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4 img-rounded">
+                            <div class="card cardView">
+
+                                <div class="card-body">
+                                    <h1>$0.00</h1><br>
+                                    <h3>Total tips</h3>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/js.main.js"></script>
+    <script src="js/bootstrap.main.js"></script>
+</body>
+
+</html>
